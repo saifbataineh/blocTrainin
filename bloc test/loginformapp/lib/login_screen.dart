@@ -8,7 +8,7 @@ import 'package:loginformapp/widgets/login_field.dart';
 import 'package:loginformapp/widgets/social_button.dart';
 
 class LoginScreen extends StatefulWidget {
-  const LoginScreen({Key? key}) : super(key: key);
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();

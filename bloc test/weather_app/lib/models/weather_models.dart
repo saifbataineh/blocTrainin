@@ -1,5 +1,6 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+
 import 'dart:convert';
+import 'dart:developer';
 
 class WeatherModels {
   final num currentTemp;
@@ -48,7 +49,7 @@ class WeatherModels {
            /*  final data = snapshot.data!; */
 
           final currentWeatherData = map['list'][0];
-print("line $currentWeatherData");
+log("line $currentWeatherData");
  
     return WeatherModels(
       currentTemp: currentWeatherData['main']['temp'] ,
