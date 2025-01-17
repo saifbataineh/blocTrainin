@@ -1,0 +1,1 @@
+ D:\\projects\\gitHub\\project3\\loginformapp\\.dart_tool\\flutter_build\\ed7b31c2f19247e474a2ca7e84404cdc\\native_assets.yaml: 
